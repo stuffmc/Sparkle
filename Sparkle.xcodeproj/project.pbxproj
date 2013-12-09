@@ -1526,7 +1526,7 @@
 				);
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 			};
 			name = Debug;
 		};
@@ -1541,19 +1541,21 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 			};
 			name = Release;
 		};
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = Debug;
 		};
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = Release;
 		};
@@ -1650,6 +1652,7 @@
 		61072EAD0DF263BD008FE88B /* Release (GC dual-mode; 10.5+) */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1664,7 +1667,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
@@ -1672,6 +1675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 615409A8103BA09100125AF1 /* ConfigTestAppReleaseGCSupport.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = "Release (GC dual-mode; 10.5+)";
@@ -1704,6 +1708,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
@@ -1712,6 +1717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
