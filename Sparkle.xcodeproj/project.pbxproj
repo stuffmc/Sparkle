@@ -210,6 +210,15 @@
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		3772FEA813DE0B6B00F79537 /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		4C23731C18926AD300220DE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SUPasswordPrompt.xib; sourceTree = "<group>"; };
+		4C23731D18926AD300220DE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C23731E18926AD300220DE6 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		4C23732A18926ADA00220DE6 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SUPasswordPrompt.xib; sourceTree = "<group>"; };
+		4C23732B18926ADA00220DE6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C23732C18926ADA00220DE6 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		4C23733418926AE200220DE6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nl; path = nl.lproj/SUPasswordPrompt.xib; sourceTree = "<group>"; };
+		4C23733518926AE200220DE6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C23733618926AE200220DE6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		525A278F133D6AE900FD8D70 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		550347001370023A00AE7681 /* Sparkle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Sparkle.icns; sourceTree = "<group>"; };
 		55C14BB7136EEF1500649790 /* finish_installation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finish_installation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1450,6 +1459,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				61B5F92B09C4CFD800B25A18 /* English */,
+				4C23731D18926AD300220DE6 /* de */,
+				4C23732B18926ADA00220DE6 /* es */,
+				4C23733518926AE200220DE6 /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1458,6 +1470,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				61B5F92D09C4CFD800B25A18 /* English */,
+				4C23731E18926AD300220DE6 /* de */,
+				4C23732C18926ADA00220DE6 /* es */,
+				4C23733618926AE200220DE6 /* nl */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -1469,6 +1484,9 @@
 				6113C9D315BE1D3600C303E7 /* pt_BR */,
 				61F3AC1515C22D5900260CA2 /* th */,
 				6149E6EE1601ABAC008A351E /* ar */,
+				4C23731C18926AD300220DE6 /* de */,
+				4C23732A18926ADA00220DE6 /* es */,
+				4C23733418926AE200220DE6 /* nl */,
 			);
 			name = SUPasswordPrompt.xib;
 			sourceTree = "<group>";
@@ -1548,14 +1566,12 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = Debug;
 		};
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = Release;
 		};
@@ -1652,7 +1668,6 @@
 		61072EAD0DF263BD008FE88B /* Release (GC dual-mode; 10.5+) */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 			};
 			name = "Release (GC dual-mode; 10.5+)";
 		};
